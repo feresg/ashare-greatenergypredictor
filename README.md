@@ -11,7 +11,7 @@
 *   Downloading the dataset via Kaggle CLI and loading into Pandas DataFrames
 *   **Exploaratory data analysis:** Plotting distrubutions, checking columns with null values, Checking categorical data value counts, correlation with target variable, plotting skewed features or features with outliers
 *   **Data processing pipeline:** for easy transformation of both train and test datasets. Performing data cleaning, replacing null values, label encoding, feature engineering, fixing formats like timestamps, reducing memory usage and merging datasets
-*   **Modeling:** Trying LightGBM ML model, building Keras neural network, creating callback for training (early stopping, model saving, reducing learning rate on plateau), training the model and preparing hyperparameter tuning pipleine
+*   **Modeling:** Trying LightGBM ML model, building Keras neural network, creating callback for training (early stopping, model saving, reducing learning rate on plateau), training the model and preparing hyperparameter tuning pipleine. Best model saved to h5 file for easy reuse.
 *   **Submission:** performing data processing pipeline on test datasets, getting test results and submitting via Kaggle CLI
 
 ### Model
